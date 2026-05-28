@@ -13,7 +13,11 @@
 
 /dist/
 
-/.vscode/
+.vscode/*
 
 # blender backups
 *.blend?
+
+# Meta Quest agentic tooling: keep VS Code/Cursor workspace recommendations
+!.vscode/extensions.json
+!.vscode/mcp.json

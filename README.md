@@ -77,3 +77,9 @@ Similarly to audio, video is compressed with `ffmpeg`, then saved to `src/assets
 The code for Project Flowerbed is licenced under the **MIT Licence**, as found in the LICENSE file.
 
 Assets (in the `content` folder, as well as built versions in the `src/assets` folder) have their own licenses.
+
+## AI coding agents
+
+This repo is wired up for AI coding agents — `AGENTS.md`, `.vscode/extensions.json`, `.mcp.json`, `.cursor/rules/`, and a few client-specific dotfiles surface the **Meta Horizon** VS Code/Cursor extension, the `hzdb` MCP server, and the Meta Quest skill set automatically.
+
+Full toolchain, including WebXR skills and per-client install instructions: [github.com/meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
